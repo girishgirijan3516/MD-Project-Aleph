@@ -92,6 +92,27 @@
           "build/MonoAndroid81/Xamarin.Android.Support.Compat.targets": {}
         }
       },
+      "Xamarin.Android.Support.Constraint.Layout/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Constraint.Layout.Solver": "[1.1.2]"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Constraint.Layout.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Constraint.Layout.dll": {}
+        }
+      },
+      "Xamarin.Android.Support.Constraint.Layout.Solver/1.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Constraint.Layout.Solver.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Constraint.Layout.Solver.dll": {}
+        }
+      },
       "Xamarin.Android.Support.Core.UI/27.0.2.1": {
         "type": "package",
         "dependencies": {
@@ -336,6 +357,32 @@
         "xamarin.android.support.compat.nuspec"
       ]
     },
+    "Xamarin.Android.Support.Constraint.Layout/1.1.2": {
+      "sha512": "sn0QY7UuobzgjfHtLkJKy7P4QTF7zLnl/2MoSrES2k/qvgWgc8a7u4lk6OlI7DgbOE9cEw/yVD3cAf+r0k+e6Q==",
+      "type": "package",
+      "path": "xamarin.android.support.constraint.layout/1.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Constraint.Layout.dll",
+        "xamarin.android.support.constraint.layout.1.1.2.nupkg.sha512",
+        "xamarin.android.support.constraint.layout.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.Constraint.Layout.Solver/1.1.2": {
+      "sha512": "aPvrm64U2lNAJBV2hg5jNA+e7WSK/iKj8XYLa+FJLVq2qXqLS3dZ6GSdKWsTARY4z9iWrt7f7E1ODnbPgkkDBw==",
+      "type": "package",
+      "path": "xamarin.android.support.constraint.layout.solver/1.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Constraint.Layout.Solver.dll",
+        "xamarin.android.support.constraint.layout.solver.1.1.2.nupkg.sha512",
+        "xamarin.android.support.constraint.layout.solver.nuspec"
+      ]
+    },
     "Xamarin.Android.Support.Core.UI/27.0.2.1": {
       "sha512": "3LSUdUyFZ9anlu+G79UhoZSzpcy1BNfaxec7Wh03/0PH9QF2YR7k74dZ3ix+OjzAGi05+QBxuNqsJMervRhWsw==",
       "type": "package",
@@ -471,6 +518,7 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
+      "Xamarin.Android.Support.Constraint.Layout >= 1.1.2",
       "Xamarin.Android.Support.Design >= 27.0.2.1"
     ]
   },
@@ -480,11 +528,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Girish\\MD Project Lab\\Aleph\\Aleph\\Aleph.csproj",
+      "projectUniqueName": "D:\\Girish\\MDProjectLab\\Aleph\\Aleph\\Aleph.csproj",
       "projectName": "Aleph",
-      "projectPath": "D:\\Girish\\MD Project Lab\\Aleph\\Aleph\\Aleph.csproj",
+      "projectPath": "D:\\Girish\\MDProjectLab\\Aleph\\Aleph\\Aleph.csproj",
       "packagesPath": "C:\\Users\\Abhijith\\.nuget\\packages\\",
-      "outputPath": "D:\\Girish\\MD Project Lab\\Aleph\\Aleph\\obj\\",
+      "outputPath": "D:\\Girish\\MDProjectLab\\Aleph\\Aleph\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -507,6 +555,10 @@
     "frameworks": {
       "monoandroid81": {
         "dependencies": {
+          "Xamarin.Android.Support.Constraint.Layout": {
+            "target": "Package",
+            "version": "[1.1.2, )"
+          },
           "Xamarin.Android.Support.Design": {
             "target": "Package",
             "version": "[27.0.2.1, )"

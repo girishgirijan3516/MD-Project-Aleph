@@ -113,6 +113,8 @@ class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Annotations.dll",
 		"Xamarin.Android.Support.Compat.dll",
+		"Xamarin.Android.Support.Constraint.Layout.dll",
+		"Xamarin.Android.Support.Constraint.Layout.Solver.dll",
 		"Xamarin.Android.Support.Core.UI.dll",
 		"Xamarin.Android.Support.Core.Utils.dll",
 		"Xamarin.Android.Support.Design.dll",
