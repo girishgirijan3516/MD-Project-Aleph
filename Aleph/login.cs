@@ -40,5 +40,10 @@ namespace Aleph
                 StartActivity(signupScreen);
             };
         }
+        public override void OnBackPressed()
+        {
+            //base.OnBackPressed();
+            this.FinishAffinity();
+        }
     }
 }

@@ -33,5 +33,10 @@ namespace Aleph
                 OverridePendingTransition(Resource.Animation.fade_in, Resource.Animation.fade_out);
             };
         }
+        public override void OnBackPressed()
+        {
+            StartActivity(typeof(login));
+            OverridePendingTransition(Resource.Animation.fade_in, Resource.Animation.fade_out);
+        }
     }
 }

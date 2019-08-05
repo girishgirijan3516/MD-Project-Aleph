@@ -122,9 +122,6 @@
     <AndroidResource Include="Resources\drawable\ic_launcher_round.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\login.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\loginbuttonshape.xml" />
   </ItemGroup>
   <ItemGroup>
@@ -135,9 +132,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\side_nav_bar.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\signup.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\signupbuttonshape.xml" />
@@ -163,6 +157,12 @@
     <AndroidResource Include="Resources\layout\signup.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\signup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\login.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
