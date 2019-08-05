@@ -3643,6 +3643,7 @@ containing a value of this type.
         public static int fixed=0x7f080054;
         public static int forever=0x7f080065;
         public static int ghost_view=0x7f08000a;
+        public static int gifImageView=0x7f0800cc;
         public static int gone=0x7f080056;
         public static int home=0x7f080005;
         public static int homeAsUp=0x7f080021;
@@ -3663,17 +3664,17 @@ containing a value of this type.
         public static int line3=0x7f080018;
         public static int listMode=0x7f08001d;
         public static int list_item=0x7f08006e;
-        public static int masked=0x7f0800cd;
+        public static int masked=0x7f0800ce;
         public static int media_actions=0x7f0800b7;
         public static int message=0x7f080099;
         public static int middle=0x7f080031;
         public static int mini=0x7f080053;
         public static int multiply=0x7f080028;
         public static int navigation=0x7f08009a;
-        public static int navigation_dashboard=0x7f0800cf;
+        public static int navigation_dashboard=0x7f0800d0;
         public static int navigation_header_container=0x7f0800a2;
-        public static int navigation_home=0x7f0800ce;
-        public static int navigation_notifications=0x7f0800d0;
+        public static int navigation_home=0x7f0800cf;
+        public static int navigation_notifications=0x7f0800d1;
         public static int never=0x7f08003b;
         public static int none=0x7f080022;
         public static int normal=0x7f08001e;
@@ -3765,7 +3766,7 @@ containing a value of this type.
         public static int up=0x7f080009;
         public static int useLogo=0x7f080026;
         public static int view_offset_helper=0x7f080016;
-        public static int visible=0x7f0800cc;
+        public static int visible=0x7f0800cd;
         public static int withText=0x7f08003c;
         public static int wrap=0x7f08005b;
         public static int wrap_content=0x7f08002e;
@@ -3844,8 +3845,9 @@ containing a value of this type.
         public static int select_dialog_multichoice_material=0x7f04003a;
         public static int select_dialog_singlechoice_material=0x7f04003b;
         public static int signup=0x7f04003c;
-        public static int support_simple_spinner_dropdown_item=0x7f04003d;
-        public static int tooltip=0x7f04003e;
+        public static int splashscreen=0x7f04003d;
+        public static int support_simple_spinner_dropdown_item=0x7f04003e;
+        public static int tooltip=0x7f04003f;
     }
     public static final class menu {
         public static int navigation=0x7f0e0000;

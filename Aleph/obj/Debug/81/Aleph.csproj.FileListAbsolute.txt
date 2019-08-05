@@ -140,6 +140,7 @@ D:\Girish\MDProjectLab\Aleph\Aleph\bin\Debug\System.pdb
 D:\Girish\MDProjectLab\Aleph\Aleph\bin\Debug\System.Runtime.Serialization.pdb
 D:\Girish\MDProjectLab\Aleph\Aleph\bin\Debug\System.ServiceModel.Internals.pdb
 D:\Girish\MDProjectLab\Aleph\Aleph\bin\Debug\System.Xml.pdb
+D:\Girish\MDProjectLab\Aleph\Aleph\obj\Debug\81\res\layout\splashscreen.xml
 D:\Girish\MDProjectLab\Aleph\Aleph\obj\Debug\81\linksrc\Aleph.pdb
 D:\Girish\MDProjectLab\Aleph\Aleph\obj\Debug\81\linksrc\Mono.Android.pdb
 D:\Girish\MDProjectLab\Aleph\Aleph\obj\Debug\81\linksrc\mscorlib.pdb

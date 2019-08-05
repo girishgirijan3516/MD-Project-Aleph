@@ -2732,6 +2732,9 @@ namespace Aleph
 			// aapt resource value: 0x7F0C0034
 			public const int ghost_view = 2131492916;
 			
+			// aapt resource value: 0x7F030022
+			public const int gifImageView = 2130903074;
+			
 			// aapt resource value: 0x7F020006
 			public const int gone = 2130837510;
 			
@@ -2804,17 +2807,17 @@ namespace Aleph
 			// aapt resource value: 0x7F030004
 			public const int navigation = 2130903044;
 			
-			// aapt resource value: 0x7F030023
-			public const int navigation_dashboard = 2130903075;
+			// aapt resource value: 0x7F030024
+			public const int navigation_dashboard = 2130903076;
 			
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
 			
-			// aapt resource value: 0x7F030022
-			public const int navigation_home = 2130903074;
+			// aapt resource value: 0x7F030023
+			public const int navigation_home = 2130903075;
 			
-			// aapt resource value: 0x7F030024
-			public const int navigation_notifications = 2130903076;
+			// aapt resource value: 0x7F030025
+			public const int navigation_notifications = 2130903077;
 			
 			// aapt resource value: 0x7F020012
 			public const int none = 2130837522;
@@ -3315,6 +3318,9 @@ namespace Aleph
 			
 			// aapt resource value: 0x7F040004
 			public const int signup = 2130968580;
+			
+			// aapt resource value: 0x7F040005
+			public const int SplashScreen = 2130968581;
 			
 			// aapt resource value: 0x7F0F003B
 			public const int support_simple_spinner_dropdown_item = 2131689531;

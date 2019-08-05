@@ -2807,6 +2807,9 @@ namespace Aleph
 			// aapt resource value: 0x7f08000a
 			public const int ghost_view = 2131230730;
 			
+			// aapt resource value: 0x7f0800cc
+			public const int gifImageView = 2131230924;
+			
 			// aapt resource value: 0x7f080056
 			public const int gone = 2131230806;
 			
@@ -2867,8 +2870,8 @@ namespace Aleph
 			// aapt resource value: 0x7f08006e
 			public const int list_item = 2131230830;
 			
-			// aapt resource value: 0x7f0800cd
-			public const int masked = 2131230925;
+			// aapt resource value: 0x7f0800ce
+			public const int masked = 2131230926;
 			
 			// aapt resource value: 0x7f0800b7
 			public const int media_actions = 2131230903;
@@ -2888,17 +2891,17 @@ namespace Aleph
 			// aapt resource value: 0x7f08009a
 			public const int navigation = 2131230874;
 			
-			// aapt resource value: 0x7f0800cf
-			public const int navigation_dashboard = 2131230927;
+			// aapt resource value: 0x7f0800d0
+			public const int navigation_dashboard = 2131230928;
 			
 			// aapt resource value: 0x7f0800a2
 			public const int navigation_header_container = 2131230882;
 			
-			// aapt resource value: 0x7f0800ce
-			public const int navigation_home = 2131230926;
+			// aapt resource value: 0x7f0800cf
+			public const int navigation_home = 2131230927;
 			
-			// aapt resource value: 0x7f0800d0
-			public const int navigation_notifications = 2131230928;
+			// aapt resource value: 0x7f0800d1
+			public const int navigation_notifications = 2131230929;
 			
 			// aapt resource value: 0x7f08003b
 			public const int never = 2131230779;
@@ -3173,8 +3176,8 @@ namespace Aleph
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800cc
-			public const int visible = 2131230924;
+			// aapt resource value: 0x7f0800cd
+			public const int visible = 2131230925;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
@@ -3425,10 +3428,13 @@ namespace Aleph
 			public const int signup = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int support_simple_spinner_dropdown_item = 2130968637;
+			public const int SplashScreen = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int tooltip = 2130968638;
+			public const int support_simple_spinner_dropdown_item = 2130968638;
+			
+			// aapt resource value: 0x7f04003f
+			public const int tooltip = 2130968639;
 			
 			static Layout()
 			{

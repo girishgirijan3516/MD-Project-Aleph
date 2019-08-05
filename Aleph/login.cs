@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace Aleph
 {
-    [Activity(Label = "@string/app_name", Icon = "@drawable/logo", MainLauncher = true)]
+    [Activity(Label = "@string/app_name", Icon = "@drawable/logo", MainLauncher = false)]
     public class login : Activity
     {
         Button myLogin, mySignup, my_success_login;

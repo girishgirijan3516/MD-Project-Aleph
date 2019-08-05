@@ -52,7 +52,7 @@
         android:layout_marginTop="8dp"
         android:text="Aleph"
 		
-        android:textColor="@android:color/holo_purple"
+        android:textColor="#766a6b"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

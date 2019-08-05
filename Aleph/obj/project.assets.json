@@ -2,6 +2,24 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v8.1": {
+      "Karamunting.Android.Felipecsl.GifImageView/2.3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Annotations": "25.4.0.2"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/monoandroid71/GifImageView.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid71/GifImageView.dll": {}
+        }
+      },
       "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
         "type": "package",
         "dependencies": {
@@ -271,6 +289,18 @@
     }
   },
   "libraries": {
+    "Karamunting.Android.Felipecsl.GifImageView/2.3.0.1": {
+      "sha512": "i3HWCaA4uMEURzIzRnTplMIY9NtHayB+nIfXGSdVBFGTaBisIqexJbvxaeC7bX5ISYivOCCR2RHpt0/xw7CW5g==",
+      "type": "package",
+      "path": "karamunting.android.felipecsl.gifimageview/2.3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "karamunting.android.felipecsl.gifimageview.2.3.0.1.nupkg.sha512",
+        "karamunting.android.felipecsl.gifimageview.nuspec",
+        "lib/monoandroid71/GifImageView.dll"
+      ]
+    },
     "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
       "sha512": "skWc2Kobu11hCiH1WM2Hh77ftO8QQNn423jFDqz3alvfrPUMRS0PoP5N1FW/Hq+y36/qrFoBp2Z/FNliJ2yI1A==",
       "type": "package",
@@ -518,6 +548,7 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
+      "Karamunting.Android.Felipecsl.GifImageView >= 2.3.0.1",
       "Xamarin.Android.Support.Constraint.Layout >= 1.1.2",
       "Xamarin.Android.Support.Design >= 27.0.2.1"
     ]
@@ -555,6 +586,10 @@
     "frameworks": {
       "monoandroid81": {
         "dependencies": {
+          "Karamunting.Android.Felipecsl.GifImageView": {
+            "target": "Package",
+            "version": "[2.3.0.1, )"
+          },
           "Xamarin.Android.Support.Constraint.Layout": {
             "target": "Package",
             "version": "[1.1.2, )"
