@@ -3513,13 +3513,13 @@ containing a value of this type.
         public static final int abc_textfield_search_material=0x7f020051;
         public static final int abc_vector_test=0x7f020052;
         public static final int avd_hide_password=0x7f020053;
-        public static final int avd_hide_password_1=0x7f02007b;
-        public static final int avd_hide_password_2=0x7f02007c;
-        public static final int avd_hide_password_3=0x7f02007d;
+        public static final int avd_hide_password_1=0x7f02007c;
+        public static final int avd_hide_password_2=0x7f02007d;
+        public static final int avd_hide_password_3=0x7f02007e;
         public static final int avd_show_password=0x7f020054;
-        public static final int avd_show_password_1=0x7f02007e;
-        public static final int avd_show_password_2=0x7f02007f;
-        public static final int avd_show_password_3=0x7f020080;
+        public static final int avd_show_password_1=0x7f02007f;
+        public static final int avd_show_password_2=0x7f020080;
+        public static final int avd_show_password_3=0x7f020081;
         public static final int buttonshape=0x7f020055;
         public static final int design_bottom_navigation_item_background=0x7f020056;
         public static final int design_fab_background=0x7f020057;
@@ -3533,31 +3533,32 @@ containing a value of this type.
         public static final int ic_home_black_24dp=0x7f02005f;
         public static final int ic_launcher=0x7f020060;
         public static final int ic_launcher_round=0x7f020061;
-        public static final int ic_notifications_black_24dp=0x7f020062;
-        public static final int login=0x7f020063;
-        public static final int loginbuttonshape=0x7f020064;
-        public static final int logo=0x7f020065;
-        public static final int navigation_empty_icon=0x7f020066;
-        public static final int notification_action_background=0x7f020067;
-        public static final int notification_bg=0x7f020068;
-        public static final int notification_bg_low=0x7f020069;
-        public static final int notification_bg_low_normal=0x7f02006a;
-        public static final int notification_bg_low_pressed=0x7f02006b;
-        public static final int notification_bg_normal=0x7f02006c;
-        public static final int notification_bg_normal_pressed=0x7f02006d;
-        public static final int notification_icon_background=0x7f02006e;
-        public static final int notification_template_icon_bg=0x7f020079;
-        public static final int notification_template_icon_low_bg=0x7f02007a;
-        public static final int notification_tile_bg=0x7f02006f;
-        public static final int notify_panel_notification_icon_bg=0x7f020070;
-        public static final int side_bg=0x7f020071;
-        public static final int side_nav_bar=0x7f020072;
-        public static final int signup=0x7f020073;
-        public static final int signupbuttonshape=0x7f020074;
-        public static final int textviewshape=0x7f020075;
-        public static final int tooltip_frame_dark=0x7f020076;
-        public static final int tooltip_frame_light=0x7f020077;
-        public static final int twitter=0x7f020078;
+        public static final int ic_menu_dark=0x7f020062;
+        public static final int ic_notifications_black_24dp=0x7f020063;
+        public static final int login=0x7f020064;
+        public static final int loginbuttonshape=0x7f020065;
+        public static final int logo=0x7f020066;
+        public static final int navigation_empty_icon=0x7f020067;
+        public static final int notification_action_background=0x7f020068;
+        public static final int notification_bg=0x7f020069;
+        public static final int notification_bg_low=0x7f02006a;
+        public static final int notification_bg_low_normal=0x7f02006b;
+        public static final int notification_bg_low_pressed=0x7f02006c;
+        public static final int notification_bg_normal=0x7f02006d;
+        public static final int notification_bg_normal_pressed=0x7f02006e;
+        public static final int notification_icon_background=0x7f02006f;
+        public static final int notification_template_icon_bg=0x7f02007a;
+        public static final int notification_template_icon_low_bg=0x7f02007b;
+        public static final int notification_tile_bg=0x7f020070;
+        public static final int notify_panel_notification_icon_bg=0x7f020071;
+        public static final int side_bg=0x7f020072;
+        public static final int side_nav_bar=0x7f020073;
+        public static final int signup=0x7f020074;
+        public static final int signupbuttonshape=0x7f020075;
+        public static final int textviewshape=0x7f020076;
+        public static final int tooltip_frame_dark=0x7f020077;
+        public static final int tooltip_frame_light=0x7f020078;
+        public static final int twitter=0x7f020079;
     }
     public static final class id {
         public static final int ALT=0x7f080032;
@@ -3616,6 +3617,7 @@ containing a value of this type.
         public static final int coordinator=0x7f08009d;
         public static final int custom=0x7f08007a;
         public static final int customPanel=0x7f080079;
+        public static final int dark_mode=0x7f0800cf;
         public static final int decor_content_parent=0x7f080087;
         public static final int default_activity_button=0x7f08006d;
         public static final int design_bottom_sheet=0x7f08009f;
@@ -3671,10 +3673,10 @@ containing a value of this type.
         public static final int mini=0x7f080053;
         public static final int multiply=0x7f080028;
         public static final int navigation=0x7f08009a;
-        public static final int navigation_dashboard=0x7f0800d0;
+        public static final int navigation_dashboard=0x7f0800d2;
         public static final int navigation_header_container=0x7f0800a2;
-        public static final int navigation_home=0x7f0800cf;
-        public static final int navigation_notifications=0x7f0800d1;
+        public static final int navigation_home=0x7f0800d1;
+        public static final int navigation_notifications=0x7f0800d3;
         public static final int never=0x7f08003b;
         public static final int none=0x7f080022;
         public static final int normal=0x7f08001e;
@@ -3765,6 +3767,7 @@ containing a value of this type.
         public static final int uniform=0x7f08002d;
         public static final int up=0x7f080009;
         public static final int useLogo=0x7f080026;
+        public static final int user_signout=0x7f0800d0;
         public static final int view_offset_helper=0x7f080016;
         public static final int visible=0x7f0800cd;
         public static final int withText=0x7f08003c;
@@ -3850,7 +3853,8 @@ containing a value of this type.
         public static final int tooltip=0x7f04003f;
     }
     public static final class menu {
-        public static final int navigation=0x7f0e0000;
+        public static final int menu_main=0x7f0e0000;
+        public static final int navigation=0x7f0e0001;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
@@ -4075,6 +4079,7 @@ containing a value of this type.
         public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0a007e;
         public static final int Base_Widget_Design_AppBarLayout=0x7f0a015d;
         public static final int Base_Widget_Design_TabLayout=0x7f0a0161;
+        public static final int MyActionBar=0x7f0a0181;
         public static final int Platform_AppCompat=0x7f0a001e;
         public static final int Platform_AppCompat_Light=0x7f0a001f;
         public static final int Platform_ThemeOverlay_AppCompat=0x7f0a007f;

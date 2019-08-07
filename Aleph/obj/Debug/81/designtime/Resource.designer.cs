@@ -2456,16 +2456,19 @@ namespace Aleph
 			public const int ic_launcher_round = 2130837513;
 			
 			// aapt resource value: 0x7F020010
-			public const int ic_notifications_black_24dp = 2130837520;
+			public const int ic_menu_dark = 2130837520;
 			
 			// aapt resource value: 0x7F020011
-			public const int login = 2130837521;
+			public const int ic_notifications_black_24dp = 2130837521;
 			
 			// aapt resource value: 0x7F020012
-			public const int loginbuttonshape = 2130837522;
+			public const int login = 2130837522;
 			
 			// aapt resource value: 0x7F020013
-			public const int logo = 2130837523;
+			public const int loginbuttonshape = 2130837523;
+			
+			// aapt resource value: 0x7F020014
+			public const int logo = 2130837524;
 			
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
@@ -2506,20 +2509,20 @@ namespace Aleph
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F020014
-			public const int side_bg = 2130837524;
-			
 			// aapt resource value: 0x7F020015
-			public const int side_nav_bar = 2130837525;
+			public const int side_bg = 2130837525;
 			
 			// aapt resource value: 0x7F020016
-			public const int signup = 2130837526;
+			public const int side_nav_bar = 2130837526;
 			
 			// aapt resource value: 0x7F020017
-			public const int signupbuttonshape = 2130837527;
+			public const int signup = 2130837527;
 			
 			// aapt resource value: 0x7F020018
-			public const int textviewshape = 2130837528;
+			public const int signupbuttonshape = 2130837528;
+			
+			// aapt resource value: 0x7F020019
+			public const int textviewshape = 2130837529;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -2527,8 +2530,8 @@ namespace Aleph
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F020019
-			public const int twitter = 2130837529;
+			// aapt resource value: 0x7F020020
+			public const int twitter = 2130837536;
 			
 			static Drawable()
 			{
@@ -2669,6 +2672,9 @@ namespace Aleph
 			// aapt resource value: 0x7F0C0024
 			public const int customPanel = 2131492900;
 			
+			// aapt resource value: 0x7F030023
+			public const int dark_mode = 2130903075;
+			
 			// aapt resource value: 0x7F0C0025
 			public const int decor_content_parent = 2131492901;
 			
@@ -2807,17 +2813,17 @@ namespace Aleph
 			// aapt resource value: 0x7F030004
 			public const int navigation = 2130903044;
 			
-			// aapt resource value: 0x7F030024
-			public const int navigation_dashboard = 2130903076;
+			// aapt resource value: 0x7F030026
+			public const int navigation_dashboard = 2130903078;
 			
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
 			
-			// aapt resource value: 0x7F030023
-			public const int navigation_home = 2130903075;
-			
 			// aapt resource value: 0x7F030025
-			public const int navigation_notifications = 2130903077;
+			public const int navigation_home = 2130903077;
+			
+			// aapt resource value: 0x7F030027
+			public const int navigation_notifications = 2130903079;
 			
 			// aapt resource value: 0x7F020012
 			public const int none = 2130837522;
@@ -3067,6 +3073,9 @@ namespace Aleph
 			
 			// aapt resource value: 0x7F0C008D
 			public const int up = 2131493005;
+			
+			// aapt resource value: 0x7F030024
+			public const int user_signout = 2130903076;
 			
 			// aapt resource value: 0x7F0C008E
 			public const int view_offset_helper = 2131493006;
@@ -3342,7 +3351,10 @@ namespace Aleph
 		{
 			
 			// aapt resource value: 0x7F050002
-			public const int navigation = 2131034114;
+			public const int menu_main = 2131034114;
+			
+			// aapt resource value: 0x7F050003
+			public const int navigation = 2131034115;
 			
 			static Menu()
 			{
@@ -4036,6 +4048,9 @@ namespace Aleph
 			
 			// aapt resource value: 0x7F1600A9
 			public const int Base_Widget_Design_TabLayout = 2132148393;
+			
+			// aapt resource value: 0x7F100003
+			public const int MyActionBar = 2131755011;
 			
 			// aapt resource value: 0x7F1600AA
 			public const int Platform_AppCompat = 2132148394;

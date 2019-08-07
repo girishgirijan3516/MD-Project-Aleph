@@ -7,7 +7,7 @@
     <activity android:icon="@drawable/logo" android:label="@string/app_name" android:name="md5ded98775bad3f6602e0d09d02c5da7b7.login" />
     <activity android:label="@string/app_name" android:theme="@style/AppTheme" android:name="md5ded98775bad3f6602e0d09d02c5da7b7.MainActivity" />
     <activity android:label="signup" android:name="md5ded98775bad3f6602e0d09d02c5da7b7.signup" />
-    <activity android:label=" " android:theme="@style/AppTheme" android:name="md5ded98775bad3f6602e0d09d02c5da7b7.SplashScreen">
+    <activity android:icon="@drawable/logo" android:label="@string/app_name" android:name="md5ded98775bad3f6602e0d09d02c5da7b7.SplashScreen">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

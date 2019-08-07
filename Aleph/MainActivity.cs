@@ -10,8 +10,8 @@ using Android.Widget;
 
 namespace Aleph
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = false)]
-    public class MainActivity : Activity, BottomNavigationView.IOnNavigationItemSelectedListener
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = false)]    
+    public class MainActivity : AppCompatActivity, BottomNavigationView.IOnNavigationItemSelectedListener
     {
         TextView textMessage;
         Android.App.AlertDialog.Builder alert;
@@ -61,6 +61,30 @@ namespace Aleph
             StartActivity(typeof(login));
             OverridePendingTransition(Resource.Animation.fade_in, Resource.Animation.fade_out);
         }
+
+        //ActionBar
+        public override bool OnCreateOptionsMenu(IMenu menu)
+        {
+            var inflater = MenuInflater;
+            inflater.Inflate(Resource.Menu.menu_main, menu);
+            return true;
+        }
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            int id = item.ItemId;
+            if (id == Resource.Id.dark_mode)
+            {
+                Toast.MakeText(this, "Night Mode clicked", ToastLength.Short).Show();
+                return true;
+            }
+            else if (id == Resource.Id.user_signout)
+            {
+                Toast.MakeText(this, "Signout clicked", ToastLength.Short).Show();
+                return true;
+            }            
+            return base.OnOptionsItemSelected(item);
+        }
+        //ActionBar
     }
 }
 

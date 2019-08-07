@@ -15,7 +15,7 @@ using Felipecsl.GifImageViewLib;
 
 namespace Aleph
 {
-    [Activity(Label = " ", MainLauncher = true, Theme = "@style/AppTheme")]
+    [Activity(Label = "@string/app_name", Icon = "@drawable/logo", MainLauncher = true)]
     public class SplashScreen : AppCompatActivity
     {
         private GifImageView gifImageView;
@@ -41,8 +41,9 @@ namespace Aleph
             timer.Start();
         }
         private void Timer_Elapsed(object sender, ElapsedEventArgs e)
-        {
-            StartActivity(new Intent(this, typeof(login)));
+        {            
+            StartActivity(typeof(login));
+            OverridePendingTransition(Resource.Animation.fade_in, Resource.Animation.fade_out);
         }
 
         private byte[] ConvertFileToByteArray(Stream input)

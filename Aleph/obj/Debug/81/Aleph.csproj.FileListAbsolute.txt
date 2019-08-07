@@ -161,3 +161,5 @@ D:\Girish\MDProjectLab\Aleph\Aleph\obj\Debug\81\android\assets\System.pdb
 D:\Girish\MDProjectLab\Aleph\Aleph\obj\Debug\81\android\assets\System.Runtime.Serialization.pdb
 D:\Girish\MDProjectLab\Aleph\Aleph\obj\Debug\81\android\assets\System.ServiceModel.Internals.pdb
 D:\Girish\MDProjectLab\Aleph\Aleph\obj\Debug\81\android\assets\System.Xml.pdb
+D:\Girish\MDProjectLab\Aleph\Aleph\obj\Debug\81\res\menu\menu_main.xml
+D:\Girish\MDProjectLab\Aleph\Aleph\obj\Debug\81\res\drawable\ic_menu_dark.png
