@@ -15,6 +15,11 @@ namespace Aleph
     {
         TextView textMessage;
         Android.App.AlertDialog.Builder alert;
+
+        HomeMenuFragment f1;
+        MyLibraryMenuFragment f2;
+        StoreMenuFragment f3;
+        AboutusFragment f4;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -23,23 +28,50 @@ namespace Aleph
             textMessage = FindViewById<TextView>(Resource.Id.message);
             BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
             navigation.SetOnNavigationItemSelectedListener(this);
+
+            f1 = new HomeMenuFragment();
+            f2 = new MyLibraryMenuFragment();
+            f3 = new StoreMenuFragment();
+            f4 = new AboutusFragment();
+            setFragment(f1);
         }
         public bool OnNavigationItemSelected(IMenuItem item)
         {
             switch (item.ItemId)
             {
                 case Resource.Id.navigation_home:
-                    textMessage.SetText(Resource.String.title_home);
+                    //textMessage.SetText(Resource.String.title_home);
+                    setFragment(f1);
                     return true;
-                case Resource.Id.navigation_dashboard:
-                    textMessage.SetText(Resource.String.title_dashboard);
+                case Resource.Id.navigation_library:
+                    //textMessage.SetText(Resource.String.title_dashboard);
+                    setFragment(f2);
                     return true;
-                case Resource.Id.navigation_notifications:
-                    textMessage.SetText(Resource.String.title_notifications);
+                case Resource.Id.navigation_store:
+                    //textMessage.SetText(Resource.String.title_notifications);
+                    setFragment(f3);
+                    return true;
+                case Resource.Id.navigation_about:
+                    //textMessage.SetText(Resource.String.title_notifications);
+                    setFragment(f4);
                     return true;
             }
             return false;
         }
+
+        public void setFragment(Fragment fragment)
+        {
+            //FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+            //fragmentTransaction.replace(Resource.Id.frameLayout1, fragment);
+            //fragmentTransaction.commit();
+
+
+            FragmentTransaction fragmentTransaction = FragmentManager.BeginTransaction();
+            fragmentTransaction.Replace(Resource.Id.frameLayout1, fragment);
+            fragmentTransaction.Commit();
+
+        }
+
         public override void OnBackPressed()
         {
             alert.SetTitle("Sign out");
@@ -81,7 +113,12 @@ namespace Aleph
             {
                 Toast.MakeText(this, "Signout clicked", ToastLength.Short).Show();
                 return true;
-            }            
+            }
+            else if (id == Resource.Id.user_aboutAleph)
+            {
+                Toast.MakeText(this, "About us clicked", ToastLength.Short).Show();
+                return true;
+            }
             return base.OnOptionsItemSelected(item);
         }
         //ActionBar

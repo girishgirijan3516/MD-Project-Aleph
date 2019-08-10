@@ -12,8 +12,14 @@
     app:showAsAction="ifRoom"
     android:title="Dark Mode"/>
   <item
-    android:id="@+id/user_signout"
+    android:id="@+id/user_aboutAleph"
     android:orderInCategory="100"
+    android:showAsAction="never"
+    android:title="About Us"
+	/>
+  <item
+    android:id="@+id/user_signout"
+    android:orderInCategory="101"
     android:showAsAction="never"
     android:title="Signout"
 	/>

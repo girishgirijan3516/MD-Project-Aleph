@@ -345,6 +345,24 @@ namespace Aleph
 			// aapt resource value: 0x7F04004B
 			public const int buttonTintMode = 2130968651;
 			
+			// aapt resource value: 0x7F040001
+			public const int cardBackgroundColor = 2130968577;
+			
+			// aapt resource value: 0x7F040002
+			public const int cardCornerRadius = 2130968578;
+			
+			// aapt resource value: 0x7F040003
+			public const int cardElevation = 2130968579;
+			
+			// aapt resource value: 0x7F040004
+			public const int cardMaxElevation = 2130968580;
+			
+			// aapt resource value: 0x7F040005
+			public const int cardPreventCornerOverlap = 2130968581;
+			
+			// aapt resource value: 0x7F040006
+			public const int cardUseCompatPadding = 2130968582;
+			
 			// aapt resource value: 0x7F010002
 			public const int chainUseRtl = 2130771970;
 			
@@ -437,6 +455,21 @@ namespace Aleph
 			
 			// aapt resource value: 0x7F040066
 			public const int contentInsetStartWithNavigation = 2130968678;
+			
+			// aapt resource value: 0x7F040007
+			public const int contentPadding = 2130968583;
+			
+			// aapt resource value: 0x7F040008
+			public const int contentPaddingBottom = 2130968584;
+			
+			// aapt resource value: 0x7F040009
+			public const int contentPaddingLeft = 2130968585;
+			
+			// aapt resource value: 0x7F04000A
+			public const int contentPaddingRight = 2130968586;
+			
+			// aapt resource value: 0x7F04000B
+			public const int contentPaddingTop = 2130968587;
 			
 			// aapt resource value: 0x7F040067
 			public const int contentScrim = 2130968679;
@@ -1478,6 +1511,18 @@ namespace Aleph
 			// aapt resource value: 0x7F060026
 			public const int button_material_light = 2131099686;
 			
+			// aapt resource value: 0x7F060001
+			public const int cardview_dark_background = 2131099649;
+			
+			// aapt resource value: 0x7F060002
+			public const int cardview_light_background = 2131099650;
+			
+			// aapt resource value: 0x7F060003
+			public const int cardview_shadow_end_color = 2131099651;
+			
+			// aapt resource value: 0x7F060004
+			public const int cardview_shadow_start_color = 2131099652;
+			
 			// aapt resource value: 0x7F070004
 			public const int colorAccent = 2131165188;
 			
@@ -1901,6 +1946,15 @@ namespace Aleph
 			
 			// aapt resource value: 0x7F080003
 			public const int activity_vertical_margin = 2131230723;
+			
+			// aapt resource value: 0x7F080001
+			public const int cardview_compat_inset_shadow = 2131230721;
+			
+			// aapt resource value: 0x7F080002
+			public const int cardview_default_elevation = 2131230722;
+			
+			// aapt resource value: 0x7F080003
+			public const int cardview_default_radius = 2131230723;
 			
 			// aapt resource value: 0x7F080001
 			public const int compat_button_inset_horizontal_material = 2131230721;
@@ -2441,34 +2495,46 @@ namespace Aleph
 			public const int google = 2130837508;
 			
 			// aapt resource value: 0x7F020005
-			public const int ic_dashboard_black_24dp = 2130837509;
+			public const int ic_add_shopping_cart_black_24dp = 2130837509;
 			
 			// aapt resource value: 0x7F020006
-			public const int ic_home_black_24dp = 2130837510;
+			public const int ic_book_black_24dp = 2130837510;
 			
 			// aapt resource value: 0x7F020007
-			public const int ic_launcher = 2130837511;
+			public const int ic_dashboard_black_24dp = 2130837511;
 			
 			// aapt resource value: 0x7F020008
-			public const int ic_launcher_background = 2130837512;
+			public const int ic_home_black_24dp = 2130837512;
 			
 			// aapt resource value: 0x7F020009
-			public const int ic_launcher_round = 2130837513;
+			public const int ic_launcher = 2130837513;
 			
 			// aapt resource value: 0x7F020010
-			public const int ic_menu_dark = 2130837520;
+			public const int ic_launcher_background = 2130837520;
 			
 			// aapt resource value: 0x7F020011
-			public const int ic_notifications_black_24dp = 2130837521;
+			public const int ic_launcher_round = 2130837521;
 			
 			// aapt resource value: 0x7F020012
-			public const int login = 2130837522;
+			public const int ic_menu_dark = 2130837522;
 			
 			// aapt resource value: 0x7F020013
-			public const int loginbuttonshape = 2130837523;
+			public const int ic_notifications_black_24dp = 2130837523;
 			
 			// aapt resource value: 0x7F020014
-			public const int logo = 2130837524;
+			public const int ic_perm_contact_calendar_black_24dp = 2130837524;
+			
+			// aapt resource value: 0x7F020015
+			public const int ic_verified_user_black_24dp = 2130837525;
+			
+			// aapt resource value: 0x7F020016
+			public const int login = 2130837526;
+			
+			// aapt resource value: 0x7F020017
+			public const int loginbuttonshape = 2130837527;
+			
+			// aapt resource value: 0x7F020018
+			public const int logo = 2130837528;
 			
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
@@ -2509,20 +2575,23 @@ namespace Aleph
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F020015
-			public const int side_bg = 2130837525;
-			
-			// aapt resource value: 0x7F020016
-			public const int side_nav_bar = 2130837526;
-			
-			// aapt resource value: 0x7F020017
-			public const int signup = 2130837527;
-			
-			// aapt resource value: 0x7F020018
-			public const int signupbuttonshape = 2130837528;
-			
 			// aapt resource value: 0x7F020019
-			public const int textviewshape = 2130837529;
+			public const int RomeoandJuliet = 2130837529;
+			
+			// aapt resource value: 0x7F020020
+			public const int side_bg = 2130837536;
+			
+			// aapt resource value: 0x7F020021
+			public const int side_nav_bar = 2130837537;
+			
+			// aapt resource value: 0x7F020022
+			public const int signup = 2130837538;
+			
+			// aapt resource value: 0x7F020023
+			public const int signupbuttonshape = 2130837539;
+			
+			// aapt resource value: 0x7F020024
+			public const int textviewshape = 2130837540;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -2530,8 +2599,8 @@ namespace Aleph
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F020020
-			public const int twitter = 2130837536;
+			// aapt resource value: 0x7F020025
+			public const int twitter = 2130837541;
 			
 			static Drawable()
 			{
@@ -2627,17 +2696,17 @@ namespace Aleph
 			// aapt resource value: 0x7F020000
 			public const int bottom = 2130837504;
 			
-			// aapt resource value: 0x7F030005
-			public const int btnLogin = 2130903045;
+			// aapt resource value: 0x7F030011
+			public const int btnLogin = 2130903057;
 			
-			// aapt resource value: 0x7F030006
-			public const int btnSignup = 2130903046;
+			// aapt resource value: 0x7F030012
+			public const int btnSignup = 2130903058;
 			
-			// aapt resource value: 0x7F030013
-			public const int btnsuccessLogin = 2130903059;
+			// aapt resource value: 0x7F030019
+			public const int btnsuccessLogin = 2130903065;
 			
-			// aapt resource value: 0x7F030020
-			public const int button3 = 2130903072;
+			// aapt resource value: 0x7F030026
+			public const int button3 = 2130903078;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
@@ -2672,8 +2741,8 @@ namespace Aleph
 			// aapt resource value: 0x7F0C0024
 			public const int customPanel = 2131492900;
 			
-			// aapt resource value: 0x7F030023
-			public const int dark_mode = 2130903075;
+			// aapt resource value: 0x7F030029
+			public const int dark_mode = 2130903081;
 			
 			// aapt resource value: 0x7F0C0025
 			public const int decor_content_parent = 2131492901;
@@ -2702,14 +2771,14 @@ namespace Aleph
 			// aapt resource value: 0x7F020011
 			public const int direct = 2130837521;
 			
-			// aapt resource value: 0x7F030017
-			public const int editText = 2130903063;
+			// aapt resource value: 0x7F030023
+			public const int editText = 2130903075;
 			
-			// aapt resource value: 0x7F030018
-			public const int editText2 = 2130903064;
+			// aapt resource value: 0x7F030024
+			public const int editText2 = 2130903076;
 			
-			// aapt resource value: 0x7F030021
-			public const int editText3 = 2130903073;
+			// aapt resource value: 0x7F030027
+			public const int editText3 = 2130903079;
 			
 			// aapt resource value: 0x7F0C002C
 			public const int edit_query = 2131492908;
@@ -2729,17 +2798,23 @@ namespace Aleph
 			// aapt resource value: 0x7F0C0031
 			public const int fill = 2131492913;
 			
+			// aapt resource value: 0x7F030010
+			public const int First1 = 2130903056;
+			
 			// aapt resource value: 0x7F0C0032
 			public const int @fixed = 2131492914;
 			
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;
 			
+			// aapt resource value: 0x7F030003
+			public const int frameLayout1 = 2130903043;
+			
 			// aapt resource value: 0x7F0C0034
 			public const int ghost_view = 2131492916;
 			
-			// aapt resource value: 0x7F030022
-			public const int gifImageView = 2130903074;
+			// aapt resource value: 0x7F030028
+			public const int gifImageView = 2130903080;
 			
 			// aapt resource value: 0x7F020006
 			public const int gone = 2130837510;
@@ -2756,14 +2831,14 @@ namespace Aleph
 			// aapt resource value: 0x7F0C0038
 			public const int image = 2131492920;
 			
-			// aapt resource value: 0x7F030014
-			public const int imageView = 2130903060;
+			// aapt resource value: 0x7F030020
+			public const int imageView = 2130903072;
 			
-			// aapt resource value: 0x7F030015
-			public const int imageView2 = 2130903061;
+			// aapt resource value: 0x7F030021
+			public const int imageView2 = 2130903073;
 			
-			// aapt resource value: 0x7F030016
-			public const int imageView3 = 2130903062;
+			// aapt resource value: 0x7F030022
+			public const int imageView3 = 2130903074;
 			
 			// aapt resource value: 0x7F0C000C
 			public const int info = 2131492876;
@@ -2801,8 +2876,8 @@ namespace Aleph
 			// aapt resource value: 0x7F0C0043
 			public const int media_actions = 2131492931;
 			
-			// aapt resource value: 0x7F030003
-			public const int message = 2130903043;
+			// aapt resource value: 0x7F030004
+			public const int message = 2130903044;
 			
 			// aapt resource value: 0x7F0C0045
 			public const int mini = 2131492933;
@@ -2810,20 +2885,23 @@ namespace Aleph
 			// aapt resource value: 0x7F0C0046
 			public const int multiply = 2131492934;
 			
-			// aapt resource value: 0x7F030004
-			public const int navigation = 2130903044;
+			// aapt resource value: 0x7F030005
+			public const int navigation = 2130903045;
 			
-			// aapt resource value: 0x7F030026
-			public const int navigation_dashboard = 2130903078;
+			// aapt resource value: 0x7F030035
+			public const int navigation_about = 2130903093;
 			
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
 			
-			// aapt resource value: 0x7F030025
-			public const int navigation_home = 2130903077;
+			// aapt resource value: 0x7F030032
+			public const int navigation_home = 2130903090;
 			
-			// aapt resource value: 0x7F030027
-			public const int navigation_notifications = 2130903079;
+			// aapt resource value: 0x7F030033
+			public const int navigation_library = 2130903091;
+			
+			// aapt resource value: 0x7F030034
+			public const int navigation_store = 2130903092;
 			
 			// aapt resource value: 0x7F020012
 			public const int none = 2130837522;
@@ -2861,6 +2939,9 @@ namespace Aleph
 			// aapt resource value: 0x7F0C0050
 			public const int pin = 2131492944;
 			
+			// aapt resource value: 0x7F030006
+			public const int popular_books = 2130903046;
+			
 			// aapt resource value: 0x7F0C0051
 			public const int progress_circular = 2131492945;
 			
@@ -2869,6 +2950,15 @@ namespace Aleph
 			
 			// aapt resource value: 0x7F0C0053
 			public const int radio = 2131492947;
+			
+			// aapt resource value: 0x7F030008
+			public const int recent_books = 2130903048;
+			
+			// aapt resource value: 0x7F030007
+			public const int recyclerView = 2130903047;
+			
+			// aapt resource value: 0x7F030009
+			public const int recyclerView1 = 2130903049;
 			
 			// aapt resource value: 0x7F020003
 			public const int right = 2130837507;
@@ -3008,20 +3098,20 @@ namespace Aleph
 			// aapt resource value: 0x7F0C007C
 			public const int textSpacerNoTitle = 2131492988;
 			
-			// aapt resource value: 0x7F030007
-			public const int textView = 2130903047;
+			// aapt resource value: 0x7F030013
+			public const int textView = 2130903059;
 			
-			// aapt resource value: 0x7F030008
-			public const int textView2 = 2130903048;
+			// aapt resource value: 0x7F030014
+			public const int textView2 = 2130903060;
 			
-			// aapt resource value: 0x7F030010
-			public const int textView3 = 2130903056;
+			// aapt resource value: 0x7F030016
+			public const int textView3 = 2130903062;
 			
-			// aapt resource value: 0x7F030011
-			public const int textView4 = 2130903057;
+			// aapt resource value: 0x7F030017
+			public const int textView4 = 2130903063;
 			
-			// aapt resource value: 0x7F030019
-			public const int textView5 = 2130903065;
+			// aapt resource value: 0x7F030025
+			public const int textView5 = 2130903077;
 			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
@@ -3062,11 +3152,11 @@ namespace Aleph
 			// aapt resource value: 0x7F0C008B
 			public const int transition_transform = 2131493003;
 			
-			// aapt resource value: 0x7F030009
-			public const int txtEmail = 2130903049;
+			// aapt resource value: 0x7F030015
+			public const int txtEmail = 2130903061;
 			
-			// aapt resource value: 0x7F030012
-			public const int txtPassword = 2130903058;
+			// aapt resource value: 0x7F030018
+			public const int txtPassword = 2130903064;
 			
 			// aapt resource value: 0x7F0C008C
 			public const int uniform = 2131493004;
@@ -3074,8 +3164,11 @@ namespace Aleph
 			// aapt resource value: 0x7F0C008D
 			public const int up = 2131493005;
 			
-			// aapt resource value: 0x7F030024
-			public const int user_signout = 2130903076;
+			// aapt resource value: 0x7F030030
+			public const int user_aboutAleph = 2130903088;
+			
+			// aapt resource value: 0x7F030031
+			public const int user_signout = 2130903089;
 			
 			// aapt resource value: 0x7F0C008E
 			public const int view_offset_helper = 2131493006;
@@ -3269,7 +3362,16 @@ namespace Aleph
 			public const int design_text_input_password_icon = 2131689512;
 			
 			// aapt resource value: 0x7F040003
-			public const int login = 2130968579;
+			public const int homeMenu = 2130968579;
+			
+			// aapt resource value: 0x7F040004
+			public const int layout1 = 2130968580;
+			
+			// aapt resource value: 0x7F040005
+			public const int login = 2130968581;
+			
+			// aapt resource value: 0x7F040006
+			public const int myLibraryMenu = 2130968582;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
@@ -3316,6 +3418,9 @@ namespace Aleph
 			// aapt resource value: 0x7F0F0006
 			public const int notification_template_part_time = 2131689478;
 			
+			// aapt resource value: 0x7F040007
+			public const int PhotoCard = 2130968583;
+			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;
 			
@@ -3325,11 +3430,14 @@ namespace Aleph
 			// aapt resource value: 0x7F0F003A
 			public const int select_dialog_singlechoice_material = 2131689530;
 			
-			// aapt resource value: 0x7F040004
-			public const int signup = 2130968580;
+			// aapt resource value: 0x7F040008
+			public const int signup = 2130968584;
 			
-			// aapt resource value: 0x7F040005
-			public const int SplashScreen = 2130968581;
+			// aapt resource value: 0x7F040009
+			public const int SplashScreen = 2130968585;
+			
+			// aapt resource value: 0x7F040010
+			public const int storeMenu = 2130968592;
 			
 			// aapt resource value: 0x7F0F003B
 			public const int support_simple_spinner_dropdown_item = 2131689531;
@@ -3517,14 +3625,23 @@ namespace Aleph
 			// aapt resource value: 0x7F150001
 			public const int status_bar_notification_info_overflow = 2132082689;
 			
+			// aapt resource value: 0x7F090008
+			public const int title_about = 2131296264;
+			
 			// aapt resource value: 0x7F090004
 			public const int title_dashboard = 2131296260;
 			
 			// aapt resource value: 0x7F090003
 			public const int title_home = 2131296259;
 			
+			// aapt resource value: 0x7F090006
+			public const int title_mylibrary = 2131296262;
+			
 			// aapt resource value: 0x7F090005
 			public const int title_notifications = 2131296261;
+			
+			// aapt resource value: 0x7F090007
+			public const int title_store = 2131296263;
 			
 			static String()
 			{
@@ -3574,6 +3691,9 @@ namespace Aleph
 			
 			// aapt resource value: 0x7F16000B
 			public const int Base_Animation_AppCompat_Tooltip = 2132148235;
+			
+			// aapt resource value: 0x7F160001
+			public const int Base_CardView = 2132148225;
 			
 			// aapt resource value: 0x7F16000C
 			public const int Base_DialogWindowTitleBackground_AppCompat = 2132148236;
@@ -4048,6 +4168,15 @@ namespace Aleph
 			
 			// aapt resource value: 0x7F1600A9
 			public const int Base_Widget_Design_TabLayout = 2132148393;
+			
+			// aapt resource value: 0x7F160002
+			public const int CardView = 2132148226;
+			
+			// aapt resource value: 0x7F160003
+			public const int CardView_Dark = 2132148227;
+			
+			// aapt resource value: 0x7F160004
+			public const int CardView_Light = 2132148228;
 			
 			// aapt resource value: 0x7F100003
 			public const int MyActionBar = 2131755011;
@@ -5567,6 +5696,60 @@ namespace Aleph
 			
 			// aapt resource value: 0x7F110377
 			public const int ButtonBarLayout_allowStacking = 2131821431;
+			
+			public static int[] CardView = new int[] {
+					16843072,
+					16843071,
+					2130968577,
+					2130968578,
+					2130968579,
+					2130968580,
+					2130968581,
+					2130968582,
+					2130968583,
+					2130968584,
+					2130968585,
+					2130968586,
+					2130968587};
+			
+			// aapt resource value: 0x7F110680
+			public const int CardView_android_minHeight = 2131822208;
+			
+			// aapt resource value: 0x1
+			public const int CardView_android_minWidth = 1;
+			
+			// aapt resource value: 0x2
+			public const int CardView_cardBackgroundColor = 2;
+			
+			// aapt resource value: 0x3
+			public const int CardView_cardCornerRadius = 3;
+			
+			// aapt resource value: 0x4
+			public const int CardView_cardElevation = 4;
+			
+			// aapt resource value: 0x5
+			public const int CardView_cardMaxElevation = 5;
+			
+			// aapt resource value: 0x6
+			public const int CardView_cardPreventCornerOverlap = 6;
+			
+			// aapt resource value: 0x7
+			public const int CardView_cardUseCompatPadding = 7;
+			
+			// aapt resource value: 0x8
+			public const int CardView_contentPadding = 8;
+			
+			// aapt resource value: 0x9
+			public const int CardView_contentPaddingBottom = 9;
+			
+			// aapt resource value: 0x10
+			public const int CardView_contentPaddingLeft = 16;
+			
+			// aapt resource value: 0x11
+			public const int CardView_contentPaddingRight = 17;
+			
+			// aapt resource value: 0x12
+			public const int CardView_contentPaddingTop = 18;
 			
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130968658,

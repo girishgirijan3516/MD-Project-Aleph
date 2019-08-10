@@ -1,1 +1,1 @@
-<resources><string name="app_name">Aleph</string><string name="title_home">Home</string><string name="title_dashboard">Dashboard</string><string name="title_notifications">Notifications</string></resources>
+<resources><string name="app_name">Aleph</string><string name="title_home">Home</string><string name="title_dashboard">Dashboard</string><string name="title_notifications">Notifications</string><string name="title_mylibrary">My Library</string><string name="title_store">Store</string><string name="title_about">Profile</string></resources>
