@@ -56,16 +56,25 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutAleph.cs" />
     <Compile Include="AboutusFragment.cs" />
+    <Compile Include="Book.cs" />
+    <Compile Include="BookContent.cs" />
+    <Compile Include="BookContentListen.cs" />
+    <Compile Include="BookObject.cs" />
     <Compile Include="DBHelperClass.cs" />
     <Compile Include="HomeMenuFragment.cs" />
+    <Compile Include="LibraryBook.cs" />
     <Compile Include="login.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="MyCustomAdapter.cs" />
     <Compile Include="MyLibraryMenuFragment.cs" />
     <Compile Include="PhotoAlbum.cs" />
     <Compile Include="PhotoAlbum1.cs" />
+    <Compile Include="PhotoAlbum2.cs" />
     <Compile Include="PhotoAlbumAdapter.cs" />
     <Compile Include="PhotoAlbumAdapter1.cs" />
+    <Compile Include="PhotoAlbumAdapter2.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="signup.cs" />
@@ -113,6 +122,9 @@
   <ItemGroup>
     <PackageReference Include="Karamunting.Android.Felipecsl.GifImageView">
       <Version>2.3.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="MusicView">
+      <Version>1.1.0</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.Constraint.Layout">
       <Version>1.1.2</Version>
@@ -233,12 +245,80 @@
     <AndroidResource Include="Resources\drawable\ic_verified_user_black_24dp.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\RomeoandJuliet.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\layout\PhotoCard.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\PhotoCard2.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\CellLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\aboutAleph.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Book.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\bookContent.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ic_play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ic_pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\bookContentListen.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\LibraryBook.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Venice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beautyandbeast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\BleakHouse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\dunwichhorror.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Forest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\gonewithwind.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\horseandboy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Invisibleman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\RomeoandJuliet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\SenseSensibility.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

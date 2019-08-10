@@ -20,6 +20,9 @@ namespace Aleph
         MyLibraryMenuFragment f2;
         StoreMenuFragment f3;
         AboutusFragment f4;
+
+        string userName, userPass;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -29,10 +32,13 @@ namespace Aleph
             BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
             navigation.SetOnNavigationItemSelectedListener(this);
 
-            f1 = new HomeMenuFragment();
-            f2 = new MyLibraryMenuFragment();
-            f3 = new StoreMenuFragment();
-            f4 = new AboutusFragment();
+            userName = Intent.GetStringExtra("userName");
+            userPass = Intent.GetStringExtra("userPassword");
+
+            f1 = new HomeMenuFragment(this, userName);
+            f2 = new MyLibraryMenuFragment(this, userName);
+            f3 = new StoreMenuFragment(this, userName);
+            f4 = new AboutusFragment(this, userName);
             setFragment(f1);
         }
         public bool OnNavigationItemSelected(IMenuItem item)
@@ -104,19 +110,24 @@ namespace Aleph
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
             int id = item.ItemId;
-            if (id == Resource.Id.dark_mode)
+            if (id == Resource.Id.user_signout)
             {
-                Toast.MakeText(this, "Night Mode clicked", ToastLength.Short).Show();
-                return true;
-            }
-            else if (id == Resource.Id.user_signout)
-            {
-                Toast.MakeText(this, "Signout clicked", ToastLength.Short).Show();
+                //Toast.MakeText(this, "Signout clicked", ToastLength.Short).Show();
+                alert.SetTitle("Sign out");
+                alert.SetMessage("Are you sure you would like to sign out?");
+                alert.SetPositiveButton("SignOut", signoutButton);
+                alert.SetNegativeButton("Cancel", cancelButton);
+                Dialog myDialog = alert.Create();
+                myDialog.Show();
                 return true;
             }
             else if (id == Resource.Id.user_aboutAleph)
             {
-                Toast.MakeText(this, "About us clicked", ToastLength.Short).Show();
+                //Toast.MakeText(this, "About us clicked", ToastLength.Short).Show();
+
+                StartActivity(typeof(AboutAleph));
+                OverridePendingTransition(Resource.Animation.fade_in, Resource.Animation.fade_out);
+
                 return true;
             }
             return base.OnOptionsItemSelected(item);

@@ -24,6 +24,13 @@ public class StoreMenuFragment
 			mono.android.TypeManager.Activate ("Aleph.StoreMenuFragment, Aleph", "", this, new java.lang.Object[] {  });
 	}
 
+	public StoreMenuFragment (android.app.Activity p0, java.lang.String p1)
+	{
+		super ();
+		if (getClass () == StoreMenuFragment.class)
+			mono.android.TypeManager.Activate ("Aleph.StoreMenuFragment, Aleph", "Android.App.Activity, Mono.Android:System.String, mscorlib", this, new java.lang.Object[] { p0, p1 });
+	}
+
 
 	public void onCreate (android.os.Bundle p0)
 	{

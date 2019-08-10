@@ -2,6 +2,9 @@
 using Android.Views;
 using Android.Widget;
 using System;
+using Android.Database;
+using Android.Database.Sqlite;
+using Android.App;
 
 namespace Aleph
 {
@@ -12,26 +15,26 @@ namespace Aleph
     }
     public class PhotoAlbum1
     {
-        static Photo1[] listPhoto =
+        public PhotoAlbum1(Activity context)
         {
-            new Photo1() {mPhotoID = Resource.Drawable.RomeoandJuliet, mCaption = "Book 01"},
-            new Photo1() {mPhotoID = Resource.Drawable.RomeoandJuliet, mCaption = "Book 02"},
-            new Photo1() {mPhotoID = Resource.Drawable.RomeoandJuliet, mCaption = "Book 03"},
-            new Photo1() {mPhotoID = Resource.Drawable.RomeoandJuliet, mCaption = "Book 04"},
-            new Photo1() {mPhotoID = Resource.Drawable.RomeoandJuliet, mCaption = "Book 05"},
-            new Photo1() {mPhotoID = Resource.Drawable.RomeoandJuliet, mCaption = "Book 06"},
-            new Photo1() {mPhotoID = Resource.Drawable.RomeoandJuliet, mCaption = "Book 07"},
-            new Photo1() {mPhotoID = Resource.Drawable.RomeoandJuliet, mCaption = "Book 08"},
-            new Photo1() {mPhotoID = Resource.Drawable.RomeoandJuliet, mCaption = "Book 09"},
-            new Photo1() {mPhotoID = Resource.Drawable.RomeoandJuliet, mCaption = "Book 010"},
-        };
-        private Photo1[] photos1;
-        Random random;
-        public PhotoAlbum1()
-        {
+            DBHelperClass myDB = new DBHelperClass(context);
+            ICursor myresult = myDB.getAllBooks();
+            listPhoto = new Photo1[myresult.Count];
+            int i = 0;
+            while (myresult.MoveToNext())
+            {
+
+                listPhoto[i] = new Photo1() { mPhotoID = myresult.GetInt(myresult.GetColumnIndexOrThrow("book_image")), mCaption = myresult.GetString(myresult.GetColumnIndexOrThrow("book_name")) };
+                ++i;
+            }
+
             this.photos1 = listPhoto;
             random = new Random();
         }
+        public static Photo1[] listPhoto;
+        private Photo1[] photos1;
+        Random random;
+        
         public int numPhoto
         {
             get

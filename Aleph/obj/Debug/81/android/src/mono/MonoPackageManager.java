@@ -108,6 +108,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "Aleph.dll" comes first in this list. */
 		"Aleph.dll",
 		"GifImageView.dll",
+		"MusicView.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",

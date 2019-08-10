@@ -6,11 +6,7 @@
 	tools:context=".MainActivity">
 
  
-  <item
-    android:id="@+id/dark_mode"
-    android:icon="@drawable/ic_menu_dark"
-    app:showAsAction="ifRoom"
-    android:title="Dark Mode"/>
+  
   <item
     android:id="@+id/user_aboutAleph"
     android:orderInCategory="100"

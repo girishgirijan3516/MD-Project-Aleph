@@ -23,6 +23,13 @@ namespace Aleph
         PhotoAlbumAdapter mAdapter;
         PhotoAlbumAdapter1 mAdapter1;
         View myView;
+        Activity myContext;
+        public string userEmail;
+        public HomeMenuFragment(Activity context, string email_id)
+        {
+            userEmail = email_id;
+            myContext = context;
+        }
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -39,7 +46,7 @@ namespace Aleph
             myView = inflater.Inflate(Resource.Layout.homeMenu, container, false);
 
             //popular
-            mPhotoAlbum = new PhotoAlbum();
+            mPhotoAlbum = new PhotoAlbum(myContext);
             mRecycleView = myView.FindViewById<RecyclerView>(Resource.Id.recyclerView);           
             mRecycleView.SetLayoutManager(new LinearLayoutManager(myView.Context, LinearLayoutManager.Horizontal, false));
             mAdapter = new PhotoAlbumAdapter(mPhotoAlbum);
@@ -48,7 +55,7 @@ namespace Aleph
             //
 
             //recent
-            mPhotoAlbum1 = new PhotoAlbum1();
+            mPhotoAlbum1 = new PhotoAlbum1(myContext);
             mRecycleView1 = myView.FindViewById<RecyclerView>(Resource.Id.recyclerView1);
             mRecycleView1.SetLayoutManager(new LinearLayoutManager(myView.Context, LinearLayoutManager.Horizontal, false));
             mAdapter1 = new PhotoAlbumAdapter1(mPhotoAlbum1);
@@ -57,16 +64,26 @@ namespace Aleph
             //
             return myView;
         }
-        private void MAdapter_ItemClick(object sender, int e)
+        private void MAdapter_ItemClick(object sender, int  e)
         {
-            int photoNum = e + 1;
-            Toast.MakeText(myView.Context, "This is photo number " + photoNum, ToastLength.Short).Show();
+            int photoNum = e ;
+            //Toast.MakeText(myView.Context, "This is photo number " + mPhotoAlbum[e].mCaption, ToastLength.Short).Show();
+
+            Intent bookScreen = new Intent(myContext, typeof(Book)); // on success loading book page
+            bookScreen.PutExtra("bookName", mPhotoAlbum[e].mCaption);
+            bookScreen.PutExtra("userEmailid", userEmail);
+            StartActivity(bookScreen);
+
         }
 
         private void MAdapter_ItemClick1(object sender, int e)
         {
-            int photoNum = e + 1;
-            Toast.MakeText(myView.Context, "This is photo number " + photoNum, ToastLength.Short).Show();
+            int photoNum = e ;
+            //Toast.MakeText(myView.Context, "This is photo number " + photoNum, ToastLength.Short).Show();
+            Intent bookScreen = new Intent(myContext, typeof(Book)); // on success loading book page
+            bookScreen.PutExtra("bookName", mPhotoAlbum1[e].mCaption);
+            bookScreen.PutExtra("userEmailid", userEmail);
+            StartActivity(bookScreen);
         }
     }
 }

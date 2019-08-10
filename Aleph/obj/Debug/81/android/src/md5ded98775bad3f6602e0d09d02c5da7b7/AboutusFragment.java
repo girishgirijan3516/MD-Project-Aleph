@@ -24,6 +24,13 @@ public class AboutusFragment
 			mono.android.TypeManager.Activate ("Aleph.AboutusFragment, Aleph", "", this, new java.lang.Object[] {  });
 	}
 
+	public AboutusFragment (android.app.Activity p0, java.lang.String p1)
+	{
+		super ();
+		if (getClass () == AboutusFragment.class)
+			mono.android.TypeManager.Activate ("Aleph.AboutusFragment, Aleph", "Android.App.Activity, Mono.Android:System.String, mscorlib", this, new java.lang.Object[] { p0, p1 });
+	}
+
 
 	public void onCreate (android.os.Bundle p0)
 	{

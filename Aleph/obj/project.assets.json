@@ -20,6 +20,15 @@
           "lib/monoandroid71/GifImageView.dll": {}
         }
       },
+      "MusicView/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/monoandroid81/MusicView.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid81/MusicView.dll": {}
+        }
+      },
       "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
         "type": "package",
         "dependencies": {
@@ -316,6 +325,19 @@
         "lib/monoandroid71/GifImageView.dll"
       ]
     },
+    "MusicView/1.1.0": {
+      "sha512": "FzjG6bZUHodV1uLSLi5kB81PtxuXvIInLTE23j1WFrJAH9/mWqyiMwfhdTQjMi932JFXbSYywMmtZC9+FRaTdw==",
+      "type": "package",
+      "path": "musicview/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid71/MusicView.dll",
+        "lib/monoandroid81/MusicView.dll",
+        "musicview.1.1.0.nupkg.sha512",
+        "musicview.nuspec"
+      ]
+    },
     "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
       "sha512": "skWc2Kobu11hCiH1WM2Hh77ftO8QQNn423jFDqz3alvfrPUMRS0PoP5N1FW/Hq+y36/qrFoBp2Z/FNliJ2yI1A==",
       "type": "package",
@@ -578,6 +600,7 @@
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
       "Karamunting.Android.Felipecsl.GifImageView >= 2.3.0.1",
+      "MusicView >= 1.1.0",
       "Xamarin.Android.Support.Constraint.Layout >= 1.1.2",
       "Xamarin.Android.Support.Design >= 27.0.2.1",
       "Xamarin.Android.Support.Fragment >= 27.0.2.1",
@@ -591,11 +614,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Girish\\MDProjectLab\\Aleph\\Aleph\\Aleph\\Aleph.csproj",
+      "projectUniqueName": "D:\\Girish\\MDProjectLab\\Newfolder\\Aleph\\Aleph\\Aleph\\Aleph\\Aleph.csproj",
       "projectName": "Aleph",
-      "projectPath": "D:\\Girish\\MDProjectLab\\Aleph\\Aleph\\Aleph\\Aleph.csproj",
+      "projectPath": "D:\\Girish\\MDProjectLab\\Newfolder\\Aleph\\Aleph\\Aleph\\Aleph\\Aleph.csproj",
       "packagesPath": "C:\\Users\\Abhijith\\.nuget\\packages\\",
-      "outputPath": "D:\\Girish\\MDProjectLab\\Aleph\\Aleph\\Aleph\\obj\\",
+      "outputPath": "D:\\Girish\\MDProjectLab\\Newfolder\\Aleph\\Aleph\\Aleph\\Aleph\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -621,6 +644,10 @@
           "Karamunting.Android.Felipecsl.GifImageView": {
             "target": "Package",
             "version": "[2.3.0.1, )"
+          },
+          "MusicView": {
+            "target": "Package",
+            "version": "[1.1.0, )"
           },
           "Xamarin.Android.Support.Constraint.Layout": {
             "target": "Package",
